@@ -1,8 +1,8 @@
-Objective
+# Objective
 The objective is to extract textual data articles from the given URL and perform text analysis to compute stop words and variables.
 All the steps mentioned below are after the extraction of articles using beautiful soups and newspaper3k libraries, Folder name: (articles).
 
-STEP 1 — Stop Words Preparation
+## STEP 1 — Stop Words Preparation
 
 •	All stop word files are combined into a single list
 
@@ -13,7 +13,7 @@ STEP 1 — Stop Words Preparation
 •	These stop words are removed later during text cleaning
 
 
-STEP 2 — Text Cleaning
+## STEP 2 — Text Cleaning
 
  Process done for each article in the articles/ folder:
  
@@ -26,7 +26,7 @@ STEP 2 — Text Cleaning
 Cleaned files are stored inside folder (cleaned articles)
 
 
-STEP 3 — Sentiment Analysis
+## STEP 3 — Sentiment Analysis
 
 Using dictionaries from folder (Master Dictionary)
 
@@ -46,10 +46,10 @@ Calculated Metrics:
 •	Subjectivity Score
 ➝ Subjectivity = (Positive + Negative) / (Total Words + 0.000001)
 
-Result saved as: Sentiment_Scores.csv
+## Result saved as: Sentiment_Scores.csv
 
 
-STEP 4 — Readability Statistics
+## STEP 4 — Readability Statistics
 
 •	Word Count
 
@@ -69,10 +69,10 @@ STEP 4 — Readability Statistics
 
 •	Average Word Length
 
-Results saved as: Readability_Scores.csv
+## Results saved as: Readability_Scores.csv
 
 
-STEP 5 — Finalizing Output in Excel file
+## STEP 5 — Finalizing Output in Excel file
 
 We merged:
 
@@ -82,10 +82,10 @@ We merged:
 
 •	Readability scores
 
-Final output: Output Data Structure.xlsx
+## Final output: Output Data Structure.xlsx
 
 
-How to run the main.py file to generate output
+# How to run the main.py file to generate output
 
 •	The main.py file is provided and should be ran in the order as mentioned below
 
@@ -103,7 +103,7 @@ How to run the main.py file to generate output
 
 
 
-All dependencies required
+# All dependencies required
 
 •	VS-Code / Jupyter Notebook
 
