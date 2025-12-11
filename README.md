@@ -1,6 +1,7 @@
 Objective
 The objective is to extract textual data articles from the given URL and perform text analysis to compute stop words and variables.
 All the steps mentioned below are after the extraction of articles using beautiful soups and newspaper3k libraries, Folder name: (articles).
+
 STEP 1 — Stop Words Preparation
 •	All stop word files are combined into a single list
 •	Converted into lowercase and duplicates removed
